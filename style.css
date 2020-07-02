@@ -1,0 +1,145 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height:100%;
+}
+
+.header{
+    height: 550px;
+    background-image:url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+/*Header section start ....*/
+.name{
+    color:#ED4B71;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: normal ;
+    
+}
+.half-width
+{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+}
+.half-width img
+{
+    width: 100%;
+}
+.header-text{
+    margin-bottom: 30px;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC4C76, #EC4C70);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+/*Header section end ....*/
+
+/*Biography section start ....*/
+.biography-headline{
+    margin-top: 120px;
+    font-size: 30px;
+}
+.biography-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.biography{
+    height: 550px;
+    background-image:url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size:  100%;
+    
+}
+/*Biography section end ....*/
+
+/*Latest work section start ....*/
+.latest-work-headline{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.latest-work{
+    height: 500px;
+    background-image:url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size:  100%;
+
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-top: 40px;  
+  }
+.row{
+     
+      margin-left:100px;
+     
+  }
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+/*Latest work section end....*/
+
+/*Clients Say section start ....*/
+.clients-say-headline{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.latest-work{
+    height: 500px;
+    background-image:url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size:  100%;
+
+}
+.clients-review{
+    text-align: center;
+}
+
+
+.clients-name{
+    margin-top: 60px;
+    font-weight: 700; 
+    font-size: 15px;
+}
+.clients-designation{
+    color : gray; 
+    font-size: 14px;
+}
+.clients-comments{
+    margin-top: 40px;
+}
+.mail-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #f37c9f, #EC4C70);
+    border-radius: 10px;
+    padding: 20px 140px;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.clients-say{
+    height: 700px;
+    background-image:url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size:  100%;
+
+}
+/*Clients Say section end....*/
